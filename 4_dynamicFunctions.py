@@ -4,16 +4,17 @@
 # Don't call the function, you just need to define it.
 values=[1, -2, 3, -4]
 def all_positives (values):
-    for num in values >= 0:
-        return False
-    else:
-        return True 
+    for num in values:
+        if num <= 0:
+            return True 
+        else:
+            return False
 print(all_positives())
 # Dynamic Functions Practice #2
 # Create a function (sum_less) that adds the numbers of a list as long as they are greater than 0 and less than 1000, and returns the result of said sum. Create a numbers variable, storing a list of numbers so we can test it.
 list=[10, 100, 200, 5, -10]
 def sum_less (list):
-    
+
 
 
 
