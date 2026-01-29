@@ -13,3 +13,12 @@
 # The function should return the following message:
 
 # "{name}, the sum of your numbers is {sum_numbers}"
+def tea_order(customer_name, tea_type, *args, **kwargs):
+    print(customer_name, "ordered a", tea_type, "tea.")
+    for arg in args:
+        print("  -Add", arg)
+    for key, value in kwargs.items():
+        print("  -  Add", key, ":", value)
+print(tea_order("Alice", "chammomile"))
+print(tea_order("Bob", "Black", milk="Oat"))
+print(tea_order("Tony", "black", milk="oat", sweetener="honey"))

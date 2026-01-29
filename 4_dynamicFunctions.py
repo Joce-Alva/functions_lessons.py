@@ -12,13 +12,9 @@ def all_positives (values):
 print(all_positives())
 # Dynamic Functions Practice #2
 # Create a function (sum_less) that adds the numbers of a list as long as they are greater than 0 and less than 1000, and returns the result of said sum. Create a numbers variable, storing a list of numbers so we can test it.
-list=[10, 100, 200, 5, -10]
-def sum_less (list):
 
 
 
 
 
-
-# Dynamic Functions Practice #3
-# Create a function (count_even) that counts the number of even numbers that exist in a list (numbers), and returns the result of said count.
+# Dynamic Function# Create a function (count_even) that counts the number of even numbers that exist in a list (numbers), and returns the result of said coun
